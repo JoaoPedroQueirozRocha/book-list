@@ -1,0 +1,9 @@
+{
+	"card": {
+		"score": "Score",
+		"review": "Review",
+		"genre": "Genre",
+		"status": "Status",
+		"description": "Description"
+	}
+}
