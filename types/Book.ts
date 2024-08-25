@@ -5,8 +5,25 @@ export interface Book {
 	description?: string;
 	image?: string;
 	score?: number;
-	review?: string;
-	genre: BookGenre[];
-	status: BookStatus;
+	review?: BookReview;
+	genre: Array<
+		| 'Fantasy'
+		| 'Science Fiction'
+		| 'Romance'
+		| 'Adventure'
+		| 'Horror'
+		| 'Thriller'
+		| 'Biography'
+		| 'History'
+		| 'Travel'
+		| 'Food'
+	>;
+	status: 'reading' | 'finished' | 'to-read';
 	titleFont: string;
+	pages: number;
+	needToBuy: boolean;
+	isSeries: boolean;
+	series?: BookSeries;
+	cover: 'common' | 'hardcover';
+	collectorEdition: boolean;
 }

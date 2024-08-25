@@ -6,26 +6,27 @@
 
 <script lang="ts" setup>
 defineProps<{
-	genre: BookGenre;
+	genre: string;
 }>();
 </script>
 
 <style lang="scss" scoped>
 .genre-tag {
 	padding: 5px 10px;
-	border-radius: 5px;
+	border-radius: 16px;
 	width: 100%;
-	color: black;
+	color: white;
+	width: fit-content;
 
-	&.romance {
+	&.Romance {
 		background-color: #d6035b;
 	}
 
-	&.fantasy {
+	&.Fantasy {
 		background-color: #0e3acc;
 	}
 
-	& .thriller {
+	&.Thriller {
 		background-color: #000000;
 	}
 }

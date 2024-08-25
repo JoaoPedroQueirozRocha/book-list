@@ -1,0 +1,47 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>315</x><y>220</y><w>210</w><h>270</h></coordinates><panel_attributes>_Book_
+--
+id: Long
+title: string
+author: string
+description: string
+image: string
+score: number
+review: string
+gente: Genres[]
+status: Status
+pages: number
+needToBuy: boolean
+isSeries: boolean
+series: BookSeries
+cover: CoverType
+collectorEdition: boolean
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>5</x><y>180</y><w>210</w><h>90</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+_Status_
+--
+READING
+FINISHED
+TO-READ
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>5</x><y>280</y><w>210</w><h>80</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+_CoverType_
+--
+COMMON
+HARDCOVER
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>5</x><y>380</y><w>210</w><h>200</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+_Genres_
+--
+FANTASY
+SCIENCE-FICTION
+ROMANCE
+ADVENTURE
+HORROR
+THRILLER
+BIOGRAPHY
+HISTORY
+TRAVEL
+FOOD
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>655</x><y>240</y><w>210</w><h>70</h></coordinates><panel_attributes>_BookSeries_
+--
+totalVolumes: number
+volumes: Book[]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>515</x><y>270</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=0..*
+m2=0..1</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>205</x><y>220</y><w>130</w><h>80</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>110;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>205</x><y>310</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>205</x><y>360</y><w>130</w><h>110</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>110;10;10;90</additional_attributes></element></diagram>
