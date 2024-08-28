@@ -1,0 +1,21 @@
+{
+	"card": {
+		"information": "Informações",
+		"score": "Nota",
+		"review": "Meus comentários",
+		"genre": "Gênero",
+		"status": "Status",
+		"description": "Descrição",
+		"pages": "Páginas",
+		"needToBuy": "Comprado",
+		"series": "Série",
+		"volumes": "Volume",
+		"cover": "Capa",
+		"coverType": {
+			"common": "Comum",
+			"hardcover": "Capa Dura",
+			"paperback": "Capá"
+		},
+		"collectorEdition": "Edição Colecionador"
+	}
+}

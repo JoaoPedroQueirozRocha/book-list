@@ -1,0 +1,21 @@
+{
+	"card": {
+		"information": "Information",
+		"score": "Score",
+		"review": "My comments",
+		"genre": "Genre",
+		"status": "Status",
+		"description": "Description",
+		"pages": "Pages",
+		"needToBuy": "Need to Buy",
+		"series": "Series",
+		"volumes": "Volumes",
+		"cover": "Cover",
+		"coverType": {
+			"common": "Common",
+			"hardcover": "Hardcover",
+			"paperback": "Paperback"
+		},
+		"collectorEdition": "Collector Edition"
+	}
+}
