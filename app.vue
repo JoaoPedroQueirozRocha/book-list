@@ -1,13 +1,8 @@
 <template>
 	<div>
+		{{ showReview }}
 		<BookCard :book="book" @openReview="showReview = true" />
-		<ReviewModal
-			:book="book"
-			v-if="showReview"
-			@close="showReview = false"
-			class="review-modal"
-			:style="{ display: showReview ? 'block' : 'none' }"
-		/>
+		<Modal v-model="showReview" type="review" :book="book" />
 	</div>
 </template>
 
