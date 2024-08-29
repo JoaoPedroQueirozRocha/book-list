@@ -4,6 +4,7 @@ import { resolve } from 'path';
 export default defineNuxtConfig({
 	compatibilityDate: '2024-04-03',
 	devtools: { enabled: true },
+	plugins: ['~/plugins/StartBookStore.ts'],
 	app: {
 		head: {
 			link: [
